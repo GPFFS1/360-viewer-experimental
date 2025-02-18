@@ -16,7 +16,7 @@ $scenes = [
     "pitch" => 0,
     "yaw" => 0,
     "type" => "equirectangular",
-    "panorama" => "/images/gs__0044.jpg",
+    "panorama" => "/images/GS__0044.JPG",
     "hotSpots" => [
       [
         "pitch" => 0,
@@ -33,7 +33,7 @@ $scenes = [
     "hfov" => 110,
     "yaw" => 5,
     "type" => "equirectangular",
-    "panorama" => "/images/gs__0028.jpg",
+    "panorama" => "/images/GS__0028.JPG",
     "hotSpots" => [
       [
         "pitch" => 0,
@@ -77,7 +77,7 @@ $scenes = [
     "pitch" => -3,
     "yaw" => 117,
     "type" => "equirectangular",
-    "panorama" => "/images/gs__0027.jpg",
+    "panorama" => "/images/GS__0027.JPG",
     "hotSpots" => [
       [
         "pitch" => 0,
@@ -95,7 +95,7 @@ $scenes = [
     "pitch" => 0,
     "yaw" => 0,
     "type" => "equirectangular",
-    "panorama" => "/images/gs__0041.jpg",
+    "panorama" => "/images/GS__0041.JPG",
     "hotSpots" => [
       [
         "pitch" => 0,
@@ -121,7 +121,7 @@ $scenes = [
     "pitch" => 0,
     "yaw" => 0,
     "type" => "equirectangular",
-    "panorama" => "/images/gs__0042.jpg",
+    "panorama" => "/images/GS__0042.JPG",
     "hotSpots" => [
       [
         "pitch" => -15,
@@ -139,7 +139,7 @@ $scenes = [
     "pitch" => 0,
     "yaw" => 0,
     "type" => "equirectangular",
-    "panorama" => "/images/gs__0029.jpg",
+    "panorama" => "/images/GS__0029.JPG",
     "hotSpots" => [
       [
         "pitch" => -35,
@@ -173,7 +173,7 @@ $scenes = [
     "pitch" => 0,
     "yaw" => 0,
     "type" => "equirectangular",
-    "panorama" => "/images/gs__0031.jpg",
+    "panorama" => "/images/GS__0031.JPG",
     "hotSpots" => [
       [
         "pitch" => -5,
@@ -199,7 +199,7 @@ $scenes = [
     "pitch" => 0,
     "yaw" => 0,
     "type" => "equirectangular",
-    "panorama" => "/images/gs__0040.jpg",
+    "panorama" => "/images/GS__0040.JPG",
     "hotSpots" => [
       [
         "pitch" => -10,
@@ -225,7 +225,7 @@ $scenes = [
     "pitch" => 0,
     "yaw" => 0,
     "type" => "equirectangular",
-    "panorama" => "/images/GS__0030.jpg",
+    "panorama" => "/images/GS__0030.JPG",
     "hotSpots" => [
       [
         "pitch" => 0,
@@ -243,7 +243,7 @@ $scenes = [
     "pitch" => 0,
     "yaw" => 0,
     "type" => "equirectangular",
-    "panorama" => "/images/gs__0032.jpg",
+    "panorama" => "/images/GS__0032.JPG",
     "hotSpots" => [
       [
         "pitch" => 0,
@@ -270,7 +270,7 @@ $scenes = [
     "pitch" => 0,
     "yaw" => 0,
     "type" => "equirectangular",
-    "panorama" => "/images/gs__0035.jpg",
+    "panorama" => "/images/GS__0035.JPG",
     "hotSpots" => [
       [
         "pitch" => 0,
@@ -296,7 +296,7 @@ $scenes = [
     "pitch" => 0,
     "yaw" => 0,
     "type" => "equirectangular",
-    "panorama" => "/images/gs__0034.jpg",
+    "panorama" => "/images/GS__0034.JPG",
     "hotSpots" => [
       [
         "pitch" => 0,
@@ -322,7 +322,7 @@ $scenes = [
     "pitch" => 0,
     "yaw" => 0,
     "type" => "equirectangular",
-    "panorama" => "/images/gs__0039.jpg",
+    "panorama" => "/images/GS__0039.JPG",
     "hotSpots" => [
       [
         "pitch" => 0,
@@ -348,7 +348,7 @@ $scenes = [
     "pitch" => 0,
     "yaw" => 0,
     "type" => "equirectangular",
-    "panorama" => "/images/gs__0036.jpg",
+    "panorama" => "/images/GS__0036.JPG",
     "hotSpots" => [
       [
         "pitch" => -5,
@@ -373,7 +373,7 @@ $scenes = [
     "pitch" => 0,
     "yaw" => 0,
     "type" => "equirectangular",
-    "panorama" => "/images/gs__0037.jpg",
+    "panorama" => "/images/GS__0037.JPG",
     "hotSpots" => [
       [
         "pitch" => 0,
@@ -391,7 +391,7 @@ $scenes = [
     "pitch" => 0,
     "yaw" => 0,
     "type" => "equirectangular",
-    "panorama" => "/images/gs__0033.jpg",
+    "panorama" => "/images/GS__0033.JPG",
     "hotSpots" => [
       [
         "pitch" => -10,

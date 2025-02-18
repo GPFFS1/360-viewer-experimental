@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.pnlm-controls-container {
+  display: flex !important;
+  justify-content: start !important;
+  padding: 10px;
+  position: absolute;
+  left: unset !important;
+  top: unset !important;
+  bottom: 0;
+  right: 0;
+  z-index: 100 !important;
+}
+
+.pnlm-fullscreen-toggle-button:hover {
+  background-color: antiquewhite;
+}
+
+#menu-btn {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-image: url("image.png"); /* Replace with your menu icon */
+  background-size: contain;
+  cursor: pointer;
+  top: 75px;
+  left: 75px;
+  z-index: 1;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slide-out {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 2vh;
+  left: 100vw;
+  background-color: #fd4834;
+  padding: 20px;
+  width: 20%;
+  border-radius: 1rem 0 0 1rem;
+  height: 90vh;
+  overflow-y: auto;
+  scrollbar-color: black transparent;
+  scrollbar-width: thin;
+}
+
+.no-animation {
+  display: none !important;
+}
+
+.menu-slide-in {
+  left: unset !important;
+  right: 0 !important;
+  animation: slide 0.5s forwards;
+}
+
+.menu-slide-out {
+  animation: slide-out 0.5s forwards;
+}
+
+.menu-content h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+.menu-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-content ul li {
+  margin-bottom: 1rem;
+}
+
+.menu-content button {
+  padding: 0.66rem;
+  font-size: larger;
+  font-family: "Merriweather", serif;
+  width: 100%;
+  border: none;
+  background-color: #f8c9c5;
+  cursor: pointer;
+  border-radius: 0.33rem;
+}
+
+.menu-content button:hover {
+  background-color: transparent;
+}
+
+.menu-content button:focus {
+  outline: none;
+}
+
+.menu-content button:active {
+  background-color: #d1d1d1;
+}
+
+.menu-content button.active {
+  background-color: #923b2b;
+}
+
+@media (max-width: 768px) {
+  .menu-content {
+    width: 90%;
+    margin: 0;
+    top: 0;
+    border-radius: 0;
+    height: 95vh;
+  }
+  #menu-btn {
+    top: 0.5rem;
+    left: 0.5rem;
+    height: 3rem;
+    width: 3rem;
+  }
+}
